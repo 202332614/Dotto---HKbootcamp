@@ -4,7 +4,7 @@
 ## 1. 프로젝트 개요
 
 - **수행 주제:** 회원가입/로그인 기능이 포함된 개인 할 일(Todo) 관리 웹 애플리케이션
-- **배포 주소:** https://durham-patients-clothing-ken.trycloudflare.com
+- **배포 주소:** [https://durham-patients-clothing-ken.trycloudflare.com](https://lift-pair-mem-titled.trycloudflare.com)
 - **사용 기술:** HTML, CSS, JavaScript, Node.js, Express.js, MySQL, bcrypt, GCP, Cloudflare Tunnel
 
 ---
