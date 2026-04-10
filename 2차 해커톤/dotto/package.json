@@ -1,0 +1,16 @@
+{
+  "name": "dotto",
+  "version": "1.0.0",
+  "description": "Dotto - Dot your day. 할 일 관리 앱",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "bcrypt": "^5.1.1",
+    "express-session": "^1.17.3"
+  }
+}

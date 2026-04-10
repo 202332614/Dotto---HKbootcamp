@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dotto — 로그인</title>
+    <link rel="stylesheet" href="/css/global.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-hero">
+            <div class="hero-logo">
+                <div class="hero-logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="#3EC997" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="3" width="18" height="18" rx="4" stroke="#3EC997" stroke-width="2"/></svg>
+                </div>
+                <span class="hero-logo-text">Dotto</span>
+            </div>
+            <p class="hero-subtitle">: Dot your day</p>
+            <h1 class="hero-heading">할 일을 깔끔하게,<br>하루를 완벽하게.</h1>
+            <p class="hero-desc">간편한 일정 관리로 생산성을 높이세요!<br>체계적인 일정 관리로 더 나은 하루를 시작하세요!</p>
+            <div class="hero-tasks">
+                <div class="hero-task-item"><div class="hero-task-circle"></div><span>영양제 챙기기</span></div>
+                <div class="hero-task-item"><div class="hero-task-circle"></div><span>뽀삐 밥 주기</span></div>
+            </div>
+        </div>
+        <div class="auth-form-section">
+            <div class="auth-form-wrapper">
+                <h2 class="form-title">Login</h2>
+                <p class="form-desc">계정에 로그인하여 할 일을 관리하세요!</p>
+                <div class="form-group">
+                    <label class="form-label" for="loginId">ID</label>
+                    <input class="form-input" type="text" id="loginId" placeholder="아이디를 입력하세요" autocomplete="username">
+                    <p class="form-error" id="loginIdError"></p>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="loginPw">Password</label>
+                    <input class="form-input" type="password" id="loginPw" placeholder="비밀번호를 입력하세요" autocomplete="current-password">
+                    <p class="form-error" id="loginPwError"></p>
+                </div>
+                <button class="btn-primary" id="loginBtn">login</button>
+                <p class="form-footer">아직 계정이 없으신가요? <a href="/signup">회원가입</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="toast" id="toast"></div>
+    <script src="/js/auth.js"></script>
+</body>
+</html>
